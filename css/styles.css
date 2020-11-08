@@ -212,6 +212,13 @@ address {
   fill: var(--main-color);
 }
 
+.header-link:hover .header-icons-mail,
+.header-link:focus .header-icons-mail,
+.header-link:hover .header-icons-phone,
+.header-link:focus .header-icons-phone {
+  fill: var(--accent-color);
+}
+
 .section-hero {
   padding-top: 200px;
   padding-bottom: 200px;
