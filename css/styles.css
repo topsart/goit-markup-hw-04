@@ -220,11 +220,17 @@ address {
 }
 
 .section-hero {
+  min-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url(../images/studio-page/hero-img.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/studio-page/hero-img.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 
 .hero-content {
